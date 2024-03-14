@@ -25,3 +25,6 @@ This is because the behaviour of `complex_function` is non-deterministic (depend
 
 Such non-deterministic behaviour is not uncommon in real-world software system.
 How can we test such non-deterministic behaviour? Think about this. (No need to implement anything)
+
+
+Non-deterministic behaviour can be tested by using continuous integration and development. A range of correct outputs could be used, or using a test based on the expected probabillity distribution outputs.
